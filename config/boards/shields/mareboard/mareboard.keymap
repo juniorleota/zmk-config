@@ -12,6 +12,9 @@
 #define SYMB 3
 #define FUNC 4
 
+#define HYPER LS(LC(LA(LCMD)))
+#define MEH LS(LC(LALT))
+
 #define COMBO_TIMEOUT_MS 45
 
 / {
@@ -21,7 +24,7 @@
     combo_LeftCmd {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <2 3>;
-      layers = <BASE NUM NAV SYMB>;
+      
       bindings = <&kp LGUI>; 
     };
     
@@ -36,14 +39,14 @@
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <1 2>;
       layers = <BASE NAV NUM SYMB>;
-      bindings = <&kp LS(LC(LA(LCMD)))>;
+      bindings = <&kp HYPER>;
     };
     
     combo_RightHyper {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <7 8>;
       layers = <BASE NUM NAV SYMB>;
-      bindings = <&kp LS(LC(LA(LCMD)))>;
+      bindings = <&kp HYPER>;
     };
     
     combo_LeftTab {
@@ -78,14 +81,14 @@
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <22 23>;
       layers = <BASE NUM NAV SYMB>;
-      bindings = <&kp LS(LC(LALT))>;
+      bindings = <&kp MEH>;
     };
     
     combo_RightMeh {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <26 27>;
       layers = <BASE NUM NAV SYMB>;
-      bindings = <&kp LS(LC(LALT))>;
+      bindings = <&kp MEH>;
     };
     
     combo_RightBootloader {
