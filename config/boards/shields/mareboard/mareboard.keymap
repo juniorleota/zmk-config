@@ -243,8 +243,8 @@
     
     Mouse_layer {
       bindings = <
-        &none &none &none &none &none &none U_WH_D U_MS_U &none &none
-        &kp LCTRL &kp LCTRL &kp LGUI &kp LSFT &none U_MS_L U_MS_D U_WH_U U_MS_R &none
+        &none &none &none &none &none &none U_WH_D U_WH_U &none &none
+        &kp LCTRL &kp LCTRL &kp LGUI &kp LSFT &none U_MS_L U_MS_D U_MS_U  U_MS_R &none
         &none &none &none &none &none &none &none &none &none &none
                     &to BASE &none &none U_BTN2 U_BTN1 U_BTN3
       >;
