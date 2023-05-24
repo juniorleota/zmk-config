@@ -13,8 +13,8 @@
 #define HYPER LS(LC(LA(LCMD)))
 #define MEH LS(LC(LALT))
 
-#include <combos.dtsi>
-#include <mouse.dtsi>
+#include "combos.dtsi"
+#include "mouse.dtsi"
 
 #define COMBO_TIMEOUT_MS 45
 
