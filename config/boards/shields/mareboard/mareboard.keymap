@@ -13,7 +13,7 @@
 #define HYPER LS(LC(LA(LCMD)))
 #define MEH LS(LC(LALT))
 
-#include "../zmk-nodefree-config/keypos_36keys.h"
+#include "../zmk-nodefree-config/keypos_def/keypos_36keys.h"
 
 #include "combos.dtsi"
 #include "mouse.dtsi"
@@ -246,7 +246,7 @@
     Mouse_layer {
       bindings = <
         &none &none &none &none &none U_WH_L U_WH_U U_WH_D U_WH_R &none
-        &kp LCTRL &kp LCTRL &kp LGUI &kp LSFT &none U_MS_L U_MS_D U_MS_U  U_MS_R &none
+        &kp LCTRL &kp LALT &kp LGUI &kp LSFT &none U_MS_L U_MS_D U_MS_U  U_MS_R &none
         &none &none &none &none &none &none &none &none &none &none
                     &to BASE &none &none U_BTN2 U_BTN1 U_BTN3
       >;
