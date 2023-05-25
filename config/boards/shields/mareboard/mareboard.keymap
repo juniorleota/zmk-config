@@ -210,6 +210,18 @@
       hold-trigger-key-positions = <KEYS_R THUMBS>;
       hold-trigger-on-release;             // delay positional check until key-release
     };
+    hmr: hmr {
+      compatible = "zmk,behavior-hold-tap";
+      label = "RIGHT_HOME_MODS";
+      #binding-cells = <2>;
+      flavor = "balanced";
+      tapping-term-ms = <280>;
+      quick-tap-ms = <175>;                // repeat on tap-into-hold
+      global-quick-tap-ms = <150>;         // requires PR #1387
+      bindings = <&kp>, <&kp>;
+      hold-trigger-key-positions = <KEYS_L THUMBS>;
+      hold-trigger-on-release;             // delay positional check until key-release
+    };
   };
 
   keymap {
@@ -218,7 +230,7 @@
     Base_layer {
       bindings = <
         &kp Q &kp W &kp J &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
-        &hml LCTRL A &hml LALT S &hml LGUI D &hml LSFT F &kp G &kp M &kp N &kp E &kp L &kp SEMICOLON
+        &hml LCTRL A &hml LALT S &hml LGUI D &hml LSFT F &kp G &kp M &hmr LSFT N &hmr LGUI E &hmr LALT L &hmr LCTRL SEMICOLON
         &kp Z &kp X &kp C &kp B &kp V &kp K &kp H &kp COMMA &kp PERIOD &kp SLASH
         &to MOUSE &lt NAV BACKSPACE &kp LEFT_SHIFT &sl SYMB &lt NUM SPACE &lt FUNC RIGHT_CONTROL
       >;
