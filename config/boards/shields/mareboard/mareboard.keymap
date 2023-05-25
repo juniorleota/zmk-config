@@ -13,6 +13,8 @@
 #define HYPER LS(LC(LA(LCMD)))
 #define MEH LS(LC(LALT))
 
+#include "../zmk-nodefree-config/keypos_36keys.h"
+
 #include "combos.dtsi"
 #include "mouse.dtsi"
 
