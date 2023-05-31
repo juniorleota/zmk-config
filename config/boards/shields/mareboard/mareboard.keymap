@@ -9,6 +9,7 @@
 #define SYMB 3
 #define MOUSE 4
 #define FUNC 5
+#define TARMAK 6
 
 #define HYPER LS(LC(LA(LCMD)))
 #define MEH LS(LC(LALT))
@@ -31,168 +32,175 @@
     combo_LeftCmd {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <2 3>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp LGUI>; 
     };
     
     combo_RightCmd {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <6 7>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp RGUI>; 
     };
     
     combo_LeftHyper {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <1 2>;
-      layers = <BASE NAV NUM SYMB>;
+      layers = <BASE NAV NUM SYMB TARMAK>;
       bindings = <&kp HYPER>;
     };
     
     combo_RightHyper {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <7 8>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp HYPER>;
     };
     
     combo_LeftTab {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <12 13>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp TAB>; 
     };
     
     combo_RightEnter {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <17 18>;
-      layers = <NUM BASE NAV SYMB>;
+      layers = <NUM BASE NAV SYMB TARMAK>;
       bindings = <&kp RET>; 
     };
     
     combo_LeftBackspace {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <11 12>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp BACKSPACE>; 
     };
     
     combo_RightEsc {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <16 17>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp ESC>; 
     };
         
     combo_LeftShift {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <21 22>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp LSFT>; 
     };
     
     combo_RightAlt {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <27 28>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp RALT>; 
     };
 
     combo_LeftMeh {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <22 23>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp MEH>;
     };
     
     combo_RightMeh {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <26 27>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp MEH>;
     };
     
     combo_RightBootloader {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <7 8 9>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bootloader>;
     };
     
     combo_LeftBootloader {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <0 1 2>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bootloader>;
     };
     
     combo_RightSystemReset {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <27 28 29>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&sys_reset>; 
     };
     
     combo_LeftSystemReset {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <20 21 22>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&sys_reset>; 
     };
     
     combo_RightBtClear {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <6 7 8>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bt BT_CLR>; 
     };
     
     combo_LeftBtClear {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <1 2 3>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bt BT_CLR>; 
+    }
+    
+    combo_Tarmak {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <2 3 4>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
+      bindings = <&to TARMAK>; 
     };
     
     combo_BT1 {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <10 11 12>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bt BT_SEL 0>; 
     };
     
     combo_BT2 {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <11 12 13>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bt BT_SEL 1>; 
     };
     
     combo_BT3 {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <12 13 14>;
-      layers = <BASE NAV NUM SYMB>;
+      layers = <BASE NAV NUM SYMB TARMAK>;
       bindings = <&bt BT_SEL 2>; 
     };
     
     combo_BT4 {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <15 16 17>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bt BT_SEL 3>; 
     };
     
     combo_BT5 {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <16 17 18>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&bt BT_SEL 4>; 
     };
     
     combo_USB {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <17 18 19>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&out OUT_TOG>; 
     };
   };
@@ -278,6 +286,15 @@
         &kp F3 &kp F2 &kp F1 &none &none &none &none &none &none &none
         &kp F10 &kp F8 &kp F7 &none &none &none &none &none &none
         &kp F12 &kp F11 &none &none &none &none 
+      >;
+    };
+
+    Tarmak_layer {
+      bindings = <
+        &kp Q &kp W &kp F &kp R &kp B &kp Y &kp U &kp I &kp O &kp P
+        &kp A &kp S &kp D &kp T &kp G &kp M &kp N &kp E &kp L &kp SEMICOLON
+        &kp Z &kp X &kp C &kp J &kp V &kp K &kp H &kp COMMA &kp PERIOD &kp SLASH
+        &to MOUSE &lt NAV BACKSPACE &kp LEFT_SHIFT &sl SYMB &lt NUM SPACE &lt FUNC RIGHT_CONTROL
       >;
     };
   };
