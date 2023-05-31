@@ -83,7 +83,21 @@
       layers = <BASE NUM NAV SYMB>;
       bindings = <&kp ESC>; 
     };
+        
+    combo_LeftShift {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <21 22>;
+      layers = <BASE NUM NAV SYMB>;
+      bindings = <&kp LSFT>; 
+    };
     
+    combo_RightAlt {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <27 28>;
+      layers = <BASE NUM NAV SYMB>;
+      bindings = <&kp RALT>; 
+    };
+
     combo_LeftMeh {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <22 23>;
@@ -159,20 +173,6 @@
       key-positions = <12 13 14>;
       layers = <BASE NAV NUM SYMB>;
       bindings = <&bt BT_SEL 2>; 
-    };
-    
-    combo_LeftShift {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <21 22>;
-      layers = <BASE NUM NAV SYMB>;
-      bindings = <&kp LSFT>; 
-    };
-    
-    combo_RightAlt {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <27 28>;
-      layers = <BASE NUM NAV SYMB>;
-      bindings = <&kp RALT>; 
     };
     
     combo_BT4 {
