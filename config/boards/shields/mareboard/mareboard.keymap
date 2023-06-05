@@ -84,6 +84,13 @@
       layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp ESC>; 
     };
+
+    combo_A {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <11 13>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
+      bindings = <&kp A>; 
+    };
         
     combo_LeftShift {
       timeout-ms = <COMBO_TIMEOUT_MS>;
