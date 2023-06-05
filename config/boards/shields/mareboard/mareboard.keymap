@@ -59,9 +59,16 @@
     
     combo_LeftTab {
       timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <12 13>;
+      key-positions = <11 13>;
       layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp TAB>; 
+    };
+    
+    combo_A {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <12 13>;
+      layers = <BASE NUM NAV SYMB TARMAK>;
+      bindings = <&kp A>; 
     };
     
     combo_RightEnter {
@@ -83,13 +90,6 @@
       key-positions = <16 17>;
       layers = <BASE NUM NAV SYMB TARMAK>;
       bindings = <&kp ESC>; 
-    };
-
-    combo_A {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <11 13>;
-      layers = <BASE NUM NAV SYMB TARMAK>;
-      bindings = <&kp A>; 
     };
         
     combo_LeftShift {
