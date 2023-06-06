@@ -244,9 +244,9 @@
 
     Base_layer {
       bindings = <
-        &kp Q &kp W &kp J &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
-        &kp A &kp S &kp D &kp F &kp G &kp M &kp N &kp E &kp L &kp SEMICOLON
-        &kp Z &kp X &kp C &kp B &kp V &kp K &kp H &kp COMMA &kp PERIOD &kp SLASH
+        &kp Q &kp W &kp F &kp R &kp B &kp Y &kp U &kp I &kp O &kp P
+        &kp A &kp S &kp D &kp T &kp G &kp M &kp N &kp E &kp L &kp SEMICOLON
+        &kp Z &kp X &kp C &kp J &kp V &kp K &kp H &kp COMMA &kp PERIOD &kp SLASH
         &to MOUSE &lt NAV BACKSPACE &kp LEFT_SHIFT &sl SYMB &lt NUM SPACE &lt FUNC RIGHT_CONTROL
       >;
     };
