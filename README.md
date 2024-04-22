@@ -5,7 +5,8 @@ ZMK config for the MareBoard keyboard, based on Urobs ZMK https://github.com/uro
 
 
 # Combos
-- [LT0, LT1, LT2] => Bootloader
+Numbers are 1 indexed and counting from left to right
+- [LT1, LT2, LT3] => Bootloader
 - [RT3, RT4, RT5] => Bootloader
 - [LB1, LB2, LB3] => System Reset
 - [RB3, RB4, RB5] => System Reset
