@@ -205,7 +205,7 @@
 
     combo_PANIC {
       timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <34 36>;
+      key-positions = <16 18>;
       layers = <BASE NUM NAV SYMB>;
       bindings = <&to BASE>; 
     };
