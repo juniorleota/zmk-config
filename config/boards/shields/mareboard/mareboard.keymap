@@ -9,7 +9,6 @@
 #define SYMB 3
 #define MOUSE 4
 #define FUNC 5
-#define TARMAK 6
 
 #define HYPER LS(LC(LA(LCMD)))
 #define MEH LS(LC(LALT))
@@ -160,13 +159,6 @@
       key-positions = <1 2 3>;
       layers = <BASE NUM NAV SYMB>;
       bindings = <&bt BT_CLR>; 
-    };
-    
-    combo_Tarmak {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <2 3 4>;
-      layers = <BASE NUM NAV SYMB>;
-      bindings = <&to>; 
     };
     
     combo_BT1 {
