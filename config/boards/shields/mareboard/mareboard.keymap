@@ -216,7 +216,7 @@
       key-positions = <31 34>;
       layers = <BASE NUM NAV SYMB>;
       bindings = <&to BASE>; 
-    }
+    };
   };
 
   behaviors {
