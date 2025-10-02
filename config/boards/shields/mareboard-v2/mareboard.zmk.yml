@@ -1,0 +1,11 @@
+file_format: "1"
+id: mareboard
+name: Mareboard
+type: shield
+url: https://github.com/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - mareboard_left
+  - mareboard_right
