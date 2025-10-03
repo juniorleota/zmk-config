@@ -45,21 +45,21 @@
     combo_LeftHyper {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <1 2>;
-      layers = <BASE NAV NUM SYMB>;
+      layers = <BASE NAV NUM SYMB MOUSE FUNC>;
       bindings = <&kp HYPER>;
     };
     
     combo_RightHyper {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <7 8>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp HYPER>;
     };
     
     combo_LeftTab {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <11 13>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp TAB>; 
     };
     
@@ -73,14 +73,14 @@
     combo_RightEnter {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <17 18>;
-      layers = <NUM BASE NAV SYMB>;
+      layers = <NUM BASE NAV SYMB MOUSE FUNC>;
       bindings = <&kp RET>; 
     };
     
     combo_LeftBackspace {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <11 12>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp BACKSPACE>; 
     };
     
@@ -101,35 +101,35 @@
     combo_LeftShift {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <21 22>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp LSFT>; 
     };
     
     combo_RightAlt {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <27 28>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp RALT>; 
     };
 
     combo_LeftMeh {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <22 23>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp MEH>;
     };
     
     combo_RightMeh {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <26 27>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp MEH>;
     };
 
     combo_USB {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <17 18 19>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&out OUT_TOG>; 
     };
   };
