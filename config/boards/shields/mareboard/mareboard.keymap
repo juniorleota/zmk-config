@@ -87,9 +87,16 @@
     combo_RightEsc {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <16 17>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE>;
       bindings = <&kp ESC>; 
     };
+    
+    combo_RightPanic {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <16 17>;
+      layers = <NUM NAV SYMB MOUSE FUNC>;
+      bindings = <&to BASE>; 
+    };  
         
     combo_LeftShift {
       timeout-ms = <COMBO_TIMEOUT_MS>;
@@ -124,13 +131,6 @@
       key-positions = <17 18 19>;
       layers = <BASE NUM NAV SYMB>;
       bindings = <&out OUT_TOG>; 
-    };
-
-    combo_PANIC {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <16 18>;
-      layers = <BASE NUM NAV SYMB>;
-      bindings = <&to BASE>; 
     };
   };
 
