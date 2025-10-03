@@ -188,7 +188,7 @@
     Func_layer {
       bindings = <
         &none          &kp F6         &kp F5              &kp F4               &none           &none                &none          &none           &none                 &none
-        &kp F10        &kp F3         &kp F2              &kp F1               &none           &none                &none          &none           &none                 &none
+        &kp F10        &kp F3         &kp F2              &kp F1               &none           &none                &kp LGUI       &kp LSFT        &kp LALT     　       &kp LCTRL
         &none          &kp F9         &kp F8              &kp F7               &none           &none                &none          &none           &none                 &none
                                       &kp F12             &kp F11              &none           &none                &none          &none
       >;
