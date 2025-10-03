@@ -31,14 +31,14 @@
     combo_LeftCmd {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <2 3>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp LGUI>; 
     };
     
     combo_RightCmd {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <6 7>;
-      layers = <BASE NUM NAV SYMB>;
+      layers = <BASE NUM NAV SYMB MOUSE FUNC>;
       bindings = <&kp RGUI>; 
     };
     
